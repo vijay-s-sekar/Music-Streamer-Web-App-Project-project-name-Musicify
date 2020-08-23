@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Musicify</display-name>
+  <welcome-file-list>
+    <welcome-file>signup.html</welcome-file>   
+  </welcome-file-list>
+  
+   <servlet>
+    <servlet-name>loginvef</servlet-name>
+    <servlet-class>Musicify.login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>loginvef</servlet-name>
+    <url-pattern>/sub</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>subb</servlet-name>
+    <servlet-class>Musicify.signup</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>subb</servlet-name>
+    <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>email</servlet-name>
+    <servlet-class>Musicify.mail</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>email</servlet-name>
+    <url-pattern>/call</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>mailtoMainparser</servlet-name>
+    <servlet-class>Musicify.TestClass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>mailtoMainparser</servlet-name>
+    <url-pattern>/sq</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>mainpareseTOmailsending</servlet-name>
+    <servlet-class>Musicify.mailsending</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>mainpareseTOmailsending</servlet-name>
+    <url-pattern>/email</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>otpverification</servlet-name>
+    <servlet-class>Musicify.otpsession</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>otpverification</servlet-name>
+    <url-pattern>/otp</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+</web-app>

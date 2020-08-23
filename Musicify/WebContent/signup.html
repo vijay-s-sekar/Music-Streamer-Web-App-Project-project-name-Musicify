@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Sign up</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<center><img src="large123.jpg"></center>
+
+
+<form method="post" action="add">
+<div class="login-box">
+    <h1>Sign up</h1>
+    <div class="textbox">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <input type="text" placeholder="User name" name="name" value="" id="name">
+    </div>
+
+    <div class="textbox">
+<i class="fa fa-envelope-o" aria-hidden="true"></i>
+        <input type="email" placeholder="Email" name="email" value="" id="email">
+    </div>
+
+    <div class="textbox">
+<i class="fa fa-lock" aria-hidden="true"></i>
+        <input type="password" placeholder="password" name="password" value="" id="txtPassword">
+    </div>
+
+    <div class="textbox">
+<i class="fa fa-lock" aria-hidden="true"></i>
+        <input type="password" placeholder="Re enter password" name="password" value="" id="txtConfirmPassword">
+    </div>
+
+
+    <input class="btn" type="submit" id="btnSubmit" value="Submit" onclick="return Validate()"  />
+ 
+     <a href="ll.html"><h3> <font color="green">login</font></h3></a>
+</div>
+</div>
+<script type="text/javascript">
+
+
+    function Validate()
+    {
+        var namee=document.getElementById("name").value;
+        var emaile=document.getElementById("email").value;
+        var password=document.getElementById("txtPassword").value;
+        var confirmPassword = document.getElementById("txtConfirmPassword").value;
+ 
+       
+        if(namee=="")
+        {
+            alert("Name is empty");
+            return false;
+        }
+        else if(emaile=="")
+        {
+            alert("Email is empty");
+             return false;
+        }
+        else if(password==""&&confirmPassword=="")
+        {
+            alert("password is empty");
+            return false;
+        }
+       
+        else if (password != confirmPassword) {
+            alert("Passwords do not match.");
+            return false;
+        }
+        else
+        {
+            return true;
+        }
+
+
+        }
+
+    
+
+</script>
+</form>
+</body>
+</html>
