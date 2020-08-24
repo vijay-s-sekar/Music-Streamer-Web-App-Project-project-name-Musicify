@@ -58,7 +58,10 @@ while(rss.next())
 		break;
 	}
 }
-	
+	if(i!=0&&j!=0)
+	{
+		res.sendRedirect("register.html");
+	}
 if(k==0)
 	{
 		System.out.print("invalid email please sign up ");

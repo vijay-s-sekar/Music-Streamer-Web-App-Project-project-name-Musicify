@@ -55,7 +55,7 @@ public class TestClass extends HttpServlet{
 				smt.executeUpdate(del);
 
 				
-				res.sendRedirect("error.html");
+				res.sendRedirect("invalidemail.html");
 			}
 		}
 		catch(Exception e)
