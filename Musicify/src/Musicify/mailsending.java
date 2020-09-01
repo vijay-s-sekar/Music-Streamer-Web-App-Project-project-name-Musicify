@@ -50,8 +50,20 @@ public class mailsending extends HttpServlet {
 	             String pass = "9952171440";  //Enter Your Gmail Password
 	             
 	             
-	             /*     this mail password was changed due to security purpose if any one run
-	             this project the mail wont send   */ 
+	             /* ********     this mail password was changed due to my security purpose if any one run
+	             this project the mail wont send 
+	             
+	              
+	               use this email and password  this will send email successfully 
+	               
+	               email 	: vijayprojectdemo@gmail.com
+	               
+	               password	: 9952171440	
+	               
+	               
+	               
+	               
+	               ********** */ 
 	             
 	             String to = email ;
 	             String from = "vijay9047662558@gmail.com";
