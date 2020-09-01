@@ -51,9 +51,8 @@ public class mailsending extends HttpServlet {
 	             
 	             
 	             
-	             
 	             String to = email ;
-	             String from = "vijay9047662558@gmail.com";
+	             String from = "vijayprojectdemo@gmail.com";
 	             String subject = "otp verification:";
 	             String messageText =h;
 	             boolean sessionDebug = false;

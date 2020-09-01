@@ -16,7 +16,8 @@ import org.codehaus.jackson.map.ObjectMapper;
 
 
 public class mail extends HttpServlet  {
-	private final String apikey="916a3a98aeb2d00846cb5eff53d4af7d";
+	private final String apikey="3b3d99cf03fbb248602a983406a8003c";//3b3d99cf03fbb248602a983406a8003c
+
 	public void doPost(HttpServletRequest req ,HttpServletResponse res)throws IOException
 	{
 //		String ee=req.getParameter("mails");
