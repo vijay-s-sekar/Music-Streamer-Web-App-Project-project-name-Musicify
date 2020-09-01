@@ -27,7 +27,7 @@ public class mailsending extends HttpServlet {
 		String email=(String) req.getAttribute("email");
 		
 		try{
-	String h="";   
+	String h="";     
 	   
 		   			Supplier<String> otps=()->{
 		   				String otp="";
