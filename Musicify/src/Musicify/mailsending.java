@@ -44,7 +44,15 @@ public class mailsending extends HttpServlet {
 		   
 	             String host ="smtp.gmail.com" ;
 	             String user = "vijay9047662558@gmail.com"; //Enter Your Gmail Username
+	             
+	             
+	             
 	             String pass = "9952171440";  //Enter Your Gmail Password
+	             
+	             
+	             /*     this mail password was changed due to security purpose if any one run
+	             this project the mail wont send   */ 
+	             
 	             String to = email ;
 	             String from = "vijay9047662558@gmail.com";
 	             String subject = "otp verification:";
