@@ -43,27 +43,14 @@ public class mailsending extends HttpServlet {
 		   			h=otps.get();
 		   
 	             String host ="smtp.gmail.com" ;
-	             String user = "vijay9047662558@gmail.com"; //Enter Your Gmail Username
+	             String user = "vijayprojectdemo@gmail.com"; //Enter Your Gmail Username
 	             
 	             
 	             
 	             String pass = "9952171440";  //Enter Your Gmail Password
 	             
 	             
-	             /* ********     this mail password was changed due to my security purpose if any one run
-	             this project the mail wont send 
 	             
-	              
-	               use this email and password  this will send email successfully 
-	               
-	               email 	: vijayprojectdemo@gmail.com
-	               
-	               password	: 9952171440	
-	               
-	               
-	               
-	               
-	               ********** */ 
 	             
 	             String to = email ;
 	             String from = "vijay9047662558@gmail.com";
